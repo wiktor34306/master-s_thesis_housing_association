@@ -1,0 +1,30 @@
+.confirm-delete-event-admin-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffffbc;
+  border: 3px solid var(--beige);
+  border-radius: 10px;
+  box-shadow: 24px 24px 24px rgba(0,0,0,0.2);
+  padding: 2em 4em;
+  outline: none;
+}
+
+.confirm-delete-event-admin-modal h2 {
+  font-size: 24px;
+  color: black;
+}
+
+.confirmation-buttons-event-removal-admin {
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+#confirm-yes-button-remove-event-admin {
+  background-color: var(--beige);
+  color: white;
+  font-size: 18px;
+}
+

@@ -1,0 +1,56 @@
+.edit-user-information-modal-worker {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    background-color: #fff;
+    border: 3px solid var(--beige);
+    border-radius: 1%;
+    box-shadow: 24px;
+    padding: 2em 4em;
+}
+
+.edit-user-information-modal-worker h2 {
+    font-size: 24px;
+    color: var(--dark);
+}
+
+.edit-user-information-modal-worker form {
+    margin-top: 1em;
+}
+
+#edit-user-information-accept-button-worker {
+    margin-left: 4px;
+    background-color: var(--beige);
+    color: #FFF;
+}
+
+.input-form-edit-user-info-detail-worker {
+    width: 50vw;
+    border-radius: 5px;
+    padding: 0.5%;
+}
+
+.modal-buttons-edit-user-info-detail-worker {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 700px) {
+    .input-form-edit-user-info-detail-worker {
+        width: 40vw;
+    }
+
+    .edit-user-information-modal-worker h2 {
+        font-size: 14pt;
+    }
+
+    #edit-user-information-accept-button-worker {
+        width: 20vw;
+        margin-top: 4%;
+    }
+
+    .modal-buttons-edit-user {
+        margin-top: 4%;
+    }
+}

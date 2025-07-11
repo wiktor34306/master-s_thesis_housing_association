@@ -1,0 +1,58 @@
+.edit-user-report-modal-resident {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    background-color: #fff;
+    border: 3px solid var(--beige);
+    border-radius: 1%;
+    box-shadow: 24px;
+    padding: 2em 4em;
+}
+
+.edit-user-report-modal-resident h2 {
+    font-size: 24px;
+    color: var(--dark);
+}
+
+.edit-user-report-modal-resident form {
+    margin-top: 1em;
+}
+
+#edit-user-report-accept-button-resident {
+    margin-left: 4px;
+    background-color: var(--beige);
+    color: #FFF;
+}
+
+.input-form-edit-report-info-detail-resident {
+    width: 50vw;
+    border-radius: 5px;
+    padding: 0.5%;
+}
+
+.modal-buttons-edit-report-info-detail-resident {
+    margin-top: 2%;
+}
+
+
+@media (max-width: 755px) {
+  .input-form-edit-report-info-detail-resident {
+    width: 30vw;
+  }
+
+  .modal-buttons-edit-user {
+    margin-top: 4%;
+  }
+
+  #edit-user-report-accept-button-resident {
+    margin-top: 4%;
+    height: 3vh;
+    width: 7vw;
+  }
+
+  .edit-user-report-modal-resident h2 {
+    font-size: 15pt;
+  }
+}

@@ -1,0 +1,61 @@
+.edit-housing-association-modal-admin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    background-color: #fff;
+    border: 3px solid var(--beige);
+    border-radius: 1%;
+    box-shadow: 24px;
+    padding: 2em 4em;
+}
+
+.edit-housing-association-modal-admin h2 {
+    font-size: 24px;
+    color: var(--dark);
+}
+
+.edit-housing-association-modal-admin form {
+    margin-top: 1em;
+}
+
+#edit-ha-accept-button-admin {
+    margin-left: 4px;
+    background-color: var(--beige);
+    color: #FFF;
+}
+
+.input-form-edit-ha-detail-admin {
+    width: 50vw;
+    border-radius: 5px;
+    padding: 0.5%;
+}
+
+.modal-buttons-edit-ha-detail-admin {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 745px) {
+    .input-form-edit-ha-detail-admin {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .modal-buttons-edit-ha-detail-admin {
+          display: flex;
+  flex-direction: column;
+    }
+
+    #edit-ha-accept-button-admin {
+        width: 100%;
+        margin-top: 6%;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    .input-form-edit-ha-detail-admin {
+        width: 40vw;
+    }
+}

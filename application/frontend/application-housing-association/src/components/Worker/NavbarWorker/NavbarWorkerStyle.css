@@ -1,0 +1,226 @@
+.worker-navbar-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .worker-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .worker-navbar-logo {
+    flex: 0 0 auto;
+  }
+  
+  .worker-navbar-center {
+    flex: 1;
+  }
+  
+  .worker-navbar-menu {
+    flex: 0 0 auto;
+  }
+
+  .worker-nav-link {
+    display: flex;
+  }
+  
+  .worker-nav-link li {
+    list-style: none;
+    margin: 0 0.5rem;
+    position: relative;
+    color: #212a3c;
+  }
+
+  .welcome-user {
+    display: block;
+    padding: 10px;
+    color: #212a3c;
+    white-space: nowrap;
+  }
+
+  .logout-button {
+    border: none;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-size: 11.5pt;
+    color: #212a3c;
+    width: 150px;
+    text-align: left;
+  }
+
+  .logout-button:hover {
+  background-color: #ecf0f1;
+}
+
+.worker-nav-link > li > a {
+    display: block;
+    padding: 10px 15px;
+    color: #212a3c;
+    font-size: 1.1rem;
+    border-radius: 4px;
+  }
+  
+  .worker-nav-link > li > a:hover,
+  .worker-nav-link > li > a.active {
+    background-color: #ecf0f1;
+  }
+
+  .worker-nav-link li:hover > .worker-submenu,
+  .worker-nav-link li > .worker-submenu:hover {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .worker-submenu {
+    position: absolute;
+    top: calc(100% - 2px);
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 100;
+  }
+  
+  .worker-submenu li a {
+    display: block;
+    padding: 10px;
+    color: #212a3c;
+    white-space: nowrap;
+  }
+  
+  .worker-submenu li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .toggler,
+  .worker-submenu-toggle {
+    display: none;
+  }
+
+  .worker-navbar-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
+
+  .navbar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 9;
+}
+      
+  @media (max-width: 945px) {
+    .worker-navbar-icon {
+        display: block;
+        z-index: 11;
+      }
+
+    .worker-navbar-center {
+      display: none;
+    }
+
+    .welcome-user {
+      text-align: left;
+    }
+
+    .worker-nav-link {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 80%;
+        background: #fff;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        box-shadow: -4px 0 12px rgba(0, 0, 0, 0.2);
+        padding: 3rem 1rem;
+        z-index: 10;
+        overflow-y: auto;
+        flex-direction: column;
+      }
+      
+      .worker-nav-link.active {
+        transform: translateX(0);
+      }
+      
+      .worker-nav-link li {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+      }
+      
+      .worker-nav-link > li > a {
+        padding: 1rem;
+        font-size: 1.3rem;
+        text-align: center;
+        display: block;
+        border-bottom: 1px solid #ecf0f1;
+      }
+
+      .worker-submenu-toggle {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-left: auto;
+        padding-left: 10px;
+      }
+      
+      .toggler:checked ~ .worker-submenu {
+        display: block;
+      }
+
+      .worker-submenu li a {
+        text-align: center;
+        padding-left: 20px;
+        border-bottom: none;
+      }
+
+  .worker-nav-link li > .worker-submenu {
+    display: none;
+    position: static;
+    opacity: 0;
+    max-height: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    overflow: hidden;
+  }
+
+  .logout-button {
+    text-align: left;
+    width: 100%;
+  }
+  
+  .worker-nav-link li:focus-within > .worker-submenu {
+    display: block;
+    opacity: 1;
+    max-height: 500px; 
+  }
+  
+  .worker-nav-link > li > a {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1520px) {
+  .worker-submenu li a {
+    white-space: normal;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+    .worker-nav-link {
+      width: 110%;
+    }
+}

@@ -1,0 +1,48 @@
+.edit-advertisement-modal-worker {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    background-color: #fff;
+    border: 3px solid var(--beige);
+    border-radius: 1%;
+    box-shadow: 24px;
+    padding: 2em 4em;
+}
+
+.edit-advertisement-modal-worker h2 {
+    font-size: 24px;
+    color: var(--dark);
+}
+
+.edit-advertisement-modal-worker form {
+    margin-top: 1em;
+}
+
+#edit-accept-button-worker {
+    margin-left: 4px;
+    background-color: var(--beige);
+    color: #FFF;
+}
+
+.input-form-edit-advertisement-worker {
+    width: 50vw;
+    border-radius: 5px;
+    padding: 0.5%;
+}
+
+@media screen and (max-width: 715px) {
+    .input-form-edit-advertisement-worker {
+        width: 38vw;
+    }
+
+    .edit-adv-form-actions-worker {
+        margin-top: 4%;
+    }
+
+    #edit-accept-button-worker {
+        margin-top: 4%;
+        width: 25vw;
+    }
+}

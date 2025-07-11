@@ -1,0 +1,67 @@
+.housing-association-form-section {
+    padding: 3%;
+}
+
+.ha-form-section {
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fcfbd8;
+    border-radius: 8px;
+}
+    
+.form-add-ha-admin {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.form-add-ha-form-admin-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-group-ha-admin {
+    margin-bottom: 3%;
+}
+
+#input-add-ha-form-admin {
+    height: 5vh;
+    width: 40vw;
+    border-radius: 5px;
+    padding: 0.5%;
+}
+
+.submit-button-form-ha-admin {
+    background-color: var(--beige);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+@media screen and (max-width: 835px) {
+  .input-form-ha-admin {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .submit-button-form-ha-admin {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+}

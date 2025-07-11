@@ -1,0 +1,91 @@
+.browse-events-section-worker {
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fcfbd8;
+    border-radius: 8px;
+}
+
+.browse-events-worker-section {
+    padding: 3%;
+}
+
+.browse-events-section-worker {
+  margin-top: 30px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fcfbd8;
+  border-radius: 8px;
+}
+
+.browse-events-worker-section {
+  padding: 3%;
+}
+
+.calendar-container-worker {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.events-list-section-worker {
+  width: 100%;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.event-item-worker {
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-actions-worker {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.event-actions-worker button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.react-calendar {
+  width: 700px !important;  
+  max-width: 100%;          
+}
+
+.react-calendar__month-view {
+  height: auto; 
+}
+
+.event-marker {
+  width: 9px;
+  height: 9px;
+  background-color: orangered; 
+  border-radius: 50%;
+  margin: 2px auto; 
+}
+
+.button-browse-events-worker {
+    background-color: var(--beige);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.button-browse-events-worker:hover {
+  background-color: rgb(114, 76, 0);
+}

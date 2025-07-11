@@ -1,0 +1,93 @@
+.ads-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .ad-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .ad-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .ad-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .ad-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .likes {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .ad-card p.ad-meta-administrator {
+    font-size: 8pt;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .tag {
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color: #555;
+  }
+  
+  .ad-card button {
+    background-color: var(--beige);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+  }
+  
+  .ad-card button:hover {
+    background-color: #cab974;
+  }
+  
+  .pagination-advertisement-grid-admin {
+    display: flex;
+    justify-content: center;
+  }
+
+  
+#number-of-pagination-adv-grid-admin {
+    background-color: var(--beige);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    margin-left: 2%;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}

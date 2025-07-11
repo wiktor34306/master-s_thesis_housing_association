@@ -1,0 +1,53 @@
+.add-resident-section {
+    padding: 3%;
+}
+
+.ar-section {
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fcfbd8;
+    border-radius: 8px;
+}
+
+.form-add-resident-admin {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.form-add-resident-container-admin {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.submit-button-form-add-resident-admin {
+    background-color: var(--beige);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+.input-form-add-resident-admin {
+    width: 60vw;
+    border-radius: 5px;
+    padding: 0.5%;
+}
+
+.form-group-add-resident-admin {
+    margin-bottom: 3%;
+}

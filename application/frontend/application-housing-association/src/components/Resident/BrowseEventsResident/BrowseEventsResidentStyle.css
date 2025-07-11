@@ -1,0 +1,58 @@
+.browse-events-section-resident {
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fcfbd8;
+    border-radius: 8px;
+}
+
+.browse-events-resident-section {
+    padding: 3%;
+}
+
+.browse-events-section-resident {
+  margin-top: 30px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fcfbd8;
+  border-radius: 8px;
+}
+
+.calendar-container-resident {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.events-list-section-resident {
+  width: 100%;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.event-item-resident {
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar {
+  width: 700px !important;  
+  max-width: 100%;          
+}
+
+.react-calendar__month-view {
+  height: auto; 
+}
+
+.event-marker {
+  width: 9px;
+  height: 9px;
+  background-color: orangered; 
+  border-radius: 50%;
+  margin: 2px auto; 
+}
