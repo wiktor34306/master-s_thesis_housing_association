@@ -19,6 +19,25 @@ Only administrator and worker can create accounts for other users.
 - HTML
 - CSS
 
+##### Appearance of the application
+### Login Page
+![Login Page](./img/login_page.png)
+
+### Main Page, after successful login
+![Main Page](./img/main_page.png)
+
+### User's advertisement page
+![User's advertisement page](./img/user_advertisement_panel.png)
+
+### Calendar page
+![Calendar page](./img/calendar_page.png)
+
+### Invoice page
+![Invoice page](./img/invoice_panel.png)
+
+### Invoice appearance
+![Invoice appearance](./img/invoice.png)
+
 ### How to start web application
 ##### Server (folder named: <b>backend</b>)
 Commands in terminal:
@@ -38,14 +57,6 @@ cd application-housing-association
 npm install
 npm start
 
+
 The page with application run automatically or if you want to run it manually,
 go to localhost:3000 in your browser.
-
-
-##### Appearance of the application
-![Login Page](/img/login_page.png)
-![Main Page](/img/main_page.png)
-![User's advertisement page](/img/user_advertisement_panel.png)
-![Calendar page](/img/calendar_page.png)
-![Invoice page](/img/invoice_panel.png)
-![Invoice appearance](/img/invoice.png)
